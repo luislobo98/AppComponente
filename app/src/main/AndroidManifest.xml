@@ -12,6 +12,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".Luis_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".nico_tela1"
+            android:exported="false" />
+        <activity
             android:name=".Login_Activity"
             android:exported="false" />
         <activity
