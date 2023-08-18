@@ -8,6 +8,34 @@
     android:layout_height="match_parent"
     tools:context=".Login_Activity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:src="@drawable/mundo"
+        android:scaleType="fitCenter"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o nome do usuário"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a sua senha"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+
 
 
 </LinearLayout>
